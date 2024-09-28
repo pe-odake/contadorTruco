@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'lato';
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container{
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#icons{
+    height: 50px;
+    width: 50px;
+}
+.contador{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85vh;
+    width: 85%;
+}
+
+.equipe1{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    width: 35%;
+}
+.nome1{
+    font-size: 40px;
+    color: white;
+}
+.cont1{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border-radius: 15px;
+}
+.btn1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+}
+.btn1 button{
+    height: 6vh;
+    width: 25%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #111827;
+    color: white;
+    cursor: pointer;
+    border: solid #111827 3px;  
+}
+.btn1 button:active{
+    background-color: #1F2937;
+    border: solid #111827 0px;
+}
+.equipe2{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    width: 35%;
+}
+.nome2{
+    font-size: 40px;
+    color: white;
+}
+.cont2{
+    background-color: white;
+    color: black;
+    height: 25vh;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border-radius: 15px;
+}
+.btn2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 30%;
+}
+.btn2 button{
+    height: 6vh;
+    width: 25%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #111827;
+    color: white;
+    cursor: pointer;
+    border: solid #111827 3px;
+}
+.btn2 button:active{
+    background-color: #1F2937;
+    border: solid #111827 0px;
+}
+.truco{
+    height: 8vh;
+    width: 30%;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #111827;
+    color: white;
+    border: solid #1F2937 3px;
+    cursor: pointer;
+    transition: .5s;
+}
+.truco:hover{
+    background-color: #1F2937;
+    border: solid #111827 3px;
+    transform: scale(1.1);
+}
